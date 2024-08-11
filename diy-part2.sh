@@ -50,6 +50,9 @@ git clone https://github.com/animegasan/luci-app-pppoe-server.git package/luci-a
 rm -rf feeds/packages/lang/golang
 git clone https://github.com/sbwml/packages_lang_golang -b 22.x feeds/packages/lang/golang
 
+
+git clone git clone https://github.com/AlexZhuo/luci-app-bandwidthd.git -b 22.x packages/luci-app-bandwidthd
+
 # Add third-party software packages (The entire repository)
 # git clone https://github.com/libremesh/lime-packages.git package/lime-packages
 # Add third-party software packages (Specify the package)
