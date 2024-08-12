@@ -46,6 +46,9 @@ git clone https://github.com/ddimension/qmi-advanced.git package/qmi-advanced
 # PPPOE SERVER
 git clone https://github.com/animegasan/luci-app-pppoe-server.git package/luci-app-pppoe-server
 
+# Passwall
+git clone https://github.com/xiaorouji/openwrt-passwall.git package/luci-app-passwall
+
 # Golang 1.22
 rm -rf feeds/packages/lang/golang
 git clone https://github.com/sbwml/packages_lang_golang -b 22.x feeds/packages/lang/golang
